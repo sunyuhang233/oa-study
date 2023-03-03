@@ -28,6 +28,8 @@
         <mapper resource="mapper/NodeMapper.xml"/>
         <mapper resource="mapper/DepartmentMapper.xml"/>
         <mapper resource="mapper/NodeMapper.xml"/>
+        <mapper resource="mapper/LeaveMapper.xml"/>
+        <mapper resource="mapper/Process.xml" />
     </mappers>
     
 </configuration>

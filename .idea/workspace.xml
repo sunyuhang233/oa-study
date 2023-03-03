@@ -9,80 +9,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a781bff-321f-454d-91ef-165f8eeef349" name="Changes" comment="页面美化">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/controller/DepartmentServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/entity/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/entity/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/mapper/DepartmentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/mapper/NodeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/service/DepartmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/service/NodeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/service/impl/DepartmentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/service/impl/NodeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/DepartmentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/NodeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/audit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/chart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/export.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/leave_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/notice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/reset.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/top/hang/oa/mapper/NodeMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/top/hang/oa/service/impl/DepartmentServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/top/hang/oa/service/impl/NodeServiceImplTest.java" afterDir="false" />
+    <list default="true" id="4a781bff-321f-454d-91ef-165f8eeef349" name="Changes" comment="侧边栏渲染">
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/entity/Leave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/entity/ProcessFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/mapper/LeaveMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/mapper/ProcessMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/service/LeaveService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/service/ProcessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/service/impl/LeaveServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/service/impl/ProcessServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/LeaveMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/Process.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top/hang/oa/mapper/LeaveMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top/hang/oa/service/impl/ProcessServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/WEB-INF/classes/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/WEB-INF/classes/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/WEB-INF/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/WEB-INF/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/WEB-INF/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/WEB-INF/classes/top/flobby/oa/controller/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/WEB-INF/classes/top/flobby/oa/controller/UserInfoServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/WEB-INF/classes/top/flobby/oa/datasource/DruidDataSourceFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/WEB-INF/classes/top/flobby/oa/entity/Employee$EmployeeBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/WEB-INF/classes/top/flobby/oa/entity/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/WEB-INF/classes/top/flobby/oa/entity/User$UserBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/WEB-INF/classes/top/flobby/oa/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/WEB-INF/classes/top/flobby/oa/mapper/EmployeeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/WEB-INF/classes/top/flobby/oa/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/WEB-INF/classes/top/flobby/oa/service/EmployeeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/WEB-INF/classes/top/flobby/oa/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/WEB-INF/classes/top/flobby/oa/service/exception/LoginException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/WEB-INF/classes/top/flobby/oa/service/impl/EmployeeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/WEB-INF/classes/top/flobby/oa/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/WEB-INF/classes/top/flobby/oa/utils/Md5Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/WEB-INF/classes/top/flobby/oa/utils/MybatisUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/WEB-INF/classes/top/flobby/oa/utils/ResponseUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oa_war_exploded/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/flobby/oa/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/controller/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/flobby/oa/controller/UserInfoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/controller/UserInfoServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/flobby/oa/datasource/DruidDataSourceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/datasource/DruidDataSourceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/flobby/oa/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/entity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/flobby/oa/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/flobby/oa/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/mapper/EmployeeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/flobby/oa/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/flobby/oa/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/service/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/flobby/oa/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/flobby/oa/service/exception/LoginException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/service/exception/LoginException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/flobby/oa/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/flobby/oa/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/flobby/oa/utils/Md5Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/utils/Md5Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/flobby/oa/utils/MybatisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/utils/MybatisUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/flobby/oa/utils/ResponseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/utils/ResponseUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/hang/oa/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/mapper/EmployeeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/hang/oa/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/hang/oa/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/hang/oa/service/impl/EmployeeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/top/flobby/oa/service/impl/EmployeeServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top/hang/oa/service/impl/EmployeeServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/top/flobby/oa/service/impl/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top/hang/oa/service/impl/UserServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/top/flobby/oa/utils/Md5UtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top/hang/oa/utils/Md5UtilsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/top/flobby/oa/utils/MybatisUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top/hang/oa/utils/MybatisUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/top/hang/oa/mapper/NodeMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/top/hang/oa/service/impl/DepartmentServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/top/hang/oa/service/impl/EmployeeServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top/hang/oa/service/impl/EmployeeServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/top/hang/oa/service/impl/NodeServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/top/hang/oa/service/impl/UserServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/top/hang/oa/utils/Md5UtilsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/top/hang/oa/utils/MybatisUtilsTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,10 +45,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="HTML File" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -140,34 +93,37 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "D:/Users/Ahang/Desktop/my-oa/target",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.20229885",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Users/Ahang/Desktop/my-oa&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.20229885&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="top.hang.oa.service.impl" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -175,74 +131,13 @@
       <recent name="top.hang.oa.service" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="top.hang.oa.mapper" />
       <recent name="top.hang.oa.service.impl" />
+      <recent name="top.hang.oa.mapper" />
       <recent name="top.flobby.oa.service.impl" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NodeServiceImplTest.selectNodeByUserId">
-    <configuration name="Md5Utils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.hang.oa.utils.Md5Utils" />
-      <module name="oa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.hang.oa.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DepartmentServiceImplTest.selectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.hang.oa.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="top.hang.oa.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="top.hang.oa.service.impl.DepartmentServiceImplTest" />
-      <option name="METHOD_NAME" value="selectById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeServiceImplTest.selectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.hang.oa.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="top.flobby.oa.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="top.hang.oa.service.impl.EmployeeServiceImplTest" />
-      <option name="METHOD_NAME" value="selectById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NodeMapperTest.selectNodeByUserId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.hang.oa.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="top.hang.oa.mapper" />
-      <option name="MAIN_CLASS_NAME" value="top.hang.oa.mapper.NodeMapperTest" />
-      <option name="METHOD_NAME" value="selectNodeByUserId" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NodeServiceImplTest.selectNodeByUserId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ProcessServiceImplTest.test">
+    <configuration name="EmployeeServiceImplTest.selectLeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oa" />
       <extension name="coverage">
         <pattern>
@@ -251,8 +146,72 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="top.hang.oa.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="top.hang.oa.service.impl.NodeServiceImplTest" />
-      <option name="METHOD_NAME" value="selectNodeByUserId" />
+      <option name="MAIN_CLASS_NAME" value="top.hang.oa.service.impl.EmployeeServiceImplTest" />
+      <option name="METHOD_NAME" value="selectLeader" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeaveMapperTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.hang.oa.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.hang.oa.mapper" />
+      <option name="MAIN_CLASS_NAME" value="top.hang.oa.mapper.LeaveMapperTest" />
+      <option name="METHOD_NAME" value="insert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeaveServiceImplTest.testInsetLeaveInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.hang.oa.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.hang.oa.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="top.hang.oa.service.impl.LeaveServiceImplTest" />
+      <option name="METHOD_NAME" value="testInsetLeaveInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProcessFlowServiceImplTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.hang.oa.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.hang.oa.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="top.hang.oa.service.impl.ProcessFlowServiceImplTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProcessServiceImplTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.hang.oa.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.hang.oa.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="top.hang.oa.service.impl.ProcessServiceImplTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -361,20 +320,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Md5Utils" />
-      <item itemvalue="JUnit.DepartmentServiceImplTest.selectById" />
-      <item itemvalue="JUnit.NodeMapperTest.selectNodeByUserId" />
-      <item itemvalue="JUnit.NodeServiceImplTest.selectNodeByUserId" />
-      <item itemvalue="JUnit.EmployeeServiceImplTest.selectById" />
+      <item itemvalue="JUnit.EmployeeServiceImplTest.selectLeader" />
+      <item itemvalue="JUnit.LeaveMapperTest.insert" />
+      <item itemvalue="JUnit.ProcessServiceImplTest.test" />
+      <item itemvalue="JUnit.ProcessFlowServiceImplTest.test" />
+      <item itemvalue="JUnit.LeaveServiceImplTest.testInsetLeaveInfo" />
       <item itemvalue="Tomcat Server.Tomcat 10.0.27" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NodeServiceImplTest.selectNodeByUserId" />
-        <item itemvalue="JUnit.NodeMapperTest.selectNodeByUserId" />
-        <item itemvalue="JUnit.DepartmentServiceImplTest.selectById" />
-        <item itemvalue="JUnit.EmployeeServiceImplTest.selectById" />
-        <item itemvalue="Application.Md5Utils" />
+        <item itemvalue="JUnit.ProcessServiceImplTest.test" />
+        <item itemvalue="JUnit.EmployeeServiceImplTest.selectLeader" />
+        <item itemvalue="JUnit.LeaveMapperTest.insert" />
+        <item itemvalue="JUnit.ProcessFlowServiceImplTest.test" />
+        <item itemvalue="JUnit.LeaveServiceImplTest.testInsetLeaveInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -394,6 +353,16 @@
       <workItem from="1677500921476" duration="1067000" />
       <workItem from="1677559301628" duration="928000" />
       <workItem from="1677560256971" duration="13892000" />
+      <workItem from="1677582638235" duration="317000" />
+      <workItem from="1677800718958" duration="4612000" />
+      <workItem from="1677805904185" duration="1464000" />
+      <workItem from="1677807403271" duration="2510000" />
+      <workItem from="1677809939196" duration="56000" />
+      <workItem from="1677810015452" duration="148000" />
+      <workItem from="1677810179231" duration="1822000" />
+      <workItem from="1677812028457" duration="178000" />
+      <workItem from="1677812236308" duration="200000" />
+      <workItem from="1677812470270" duration="5409000" />
     </task>
     <task id="LOCAL-00001" summary="登录和首页信息展示">
       <created>1677500215632</created>
@@ -409,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677501698576</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="侧边栏渲染">
+      <created>1677582731050</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677582731050</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +405,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="登录和首页信息展示" />
     <MESSAGE value="页面美化" />
-    <option name="LAST_COMMIT_MESSAGE" value="页面美化" />
+    <MESSAGE value="侧边栏渲染" />
+    <option name="LAST_COMMIT_MESSAGE" value="侧边栏渲染" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
